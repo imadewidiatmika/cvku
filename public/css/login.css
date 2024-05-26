@@ -1,0 +1,106 @@
+/* style.css */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.card0 {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px;
+    width: 50%;
+    margin: 10% auto; /* Center the card horizontally */
+}
+
+.border-line {
+    border-right: 1px solid #EEEEEE;
+}
+
+.text-sm {
+    font-size: 14px !important;
+}
+
+.form-control, textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.btn {
+    background-color: #008EE1;
+}
+
+.google{
+    background-color: red;
+    width: 100%;
+    border-radius: 10px;
+    padding: 6px 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.google:hover{
+    background-color: rgb(228, 0, 0) !important;
+}
+
+.button-resent{
+    background-color: transparent;
+    border: 0;
+    margin-left: -0.3rem;
+    font-weight: bolder;
+    color: #008EE1;
+}
+
+.btn:hover {
+    background-color: #0086d4;
+}
+
+.footer {
+    background-color: #008EE1;
+    color: #fff;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #008EE1;
+}
+
+.invalid-feedback{
+    margin-top: -1.5rem;
+    margin-left: -0.5rem;
+}
+/* Media queries for responsiveness */
+
+/* Tablet */
+@media (max-width: 1700px) {
+    .card0 {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card0 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+    .card0 {
+        width: 100%;
+    }
+}

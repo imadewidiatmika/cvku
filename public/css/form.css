@@ -1,0 +1,213 @@
+:root {
+    --primary-color: #008EE1;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .pull-left{
+    margin-top: 100px;
+  }
+
+
+  body {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .swal2-confirm{
+    background-color: var(--primary-color) !important;
+  }
+  /* Global Stylings */
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  .width-50 {
+    width: 50%;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Form */
+  .form {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1); 
+    padding: 2.5rem;
+    border-radius: 0.35rem; 
+  }
+
+  
+  .form-step {
+    display: none;
+    transform-origin: top;
+    animation: animate 0.5s;
+  }
+  
+  .form-step-active {
+    display: block;
+  }
+  
+  .input-group {
+    margin: 2rem 0;
+  }
+
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  
+  
+  @keyframes animate {
+    from {
+      transform: scale(1, 0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1, 1);
+      opacity: 1;
+    }
+  }
+
+  .error{
+    color: red;
+    font-style: italic;
+  }
+
+  .svg-wrapper:hover {
+    cursor: pointer;
+}
+    
+  .addPortfolio{
+    margin-top: 35px;
+  }
+  
+  .ck-editor__editable_inline {
+    min-height: 150px;
+}
+
+  #add-experience-btn,#add-education-btn,#add-organization-btn,#add-language-btn ,#add-skill-btn , #add-certif-btn {
+    color: #0d6efd;
+    background-color: transparent;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-style: dashed;
+    }
+
+    #look-cv{
+      border-radius: 4px;
+      font-weight: bold;
+      padding: 8px 20px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    
+    .experience-form,.education-form,.organization-form,.language-form,.skill-form,.certif-form {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+  
+    p{
+      font-size: 13px;
+    }
+  
+    .navbar{
+      box-shadow: 0px 0px 5px #6c757d;
+    }
+    
+      ul{
+        font-weight:bold;
+    }
+  
+    /* Remove border from toggler */
+  .navbar-toggler {
+    border: 0 !important;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+  
+  /* Lines of the Toggler */
+  .toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #777777;
+    display: block;
+    transition: all 0.2s;
+  }
+  
+  /* Adds Space between the lines */
+  .middle-bar{
+    margin: 5px auto;
+  }
+  
+  /* State when navbar is opened (START) */
+  .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  /* State when navbar is opened (END) */
+  
+  /* State when navbar is collapsed (START) */
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  /* State when navbar is collapsed (END) */
+  
+  /* Color of Toggler when collapsed */
+  .navbar-toggler.collapsed .toggler-icon {
+    background-color: #777777;
+  }
+
+
+  h3{
+    margin-top: 43%;
+    font-size: 16px;
+    font-weight: bold;
+  }
